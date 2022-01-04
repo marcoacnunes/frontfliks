@@ -3,9 +3,11 @@
 This project was bootstrapped with Create React App.
 
 ## Demo
-![](https://im2.ezgif.com/tmp/ezgif-2-12ac384158.gif)
+![](https://github.com/marcoacnunes/frontfliks/blob/master/src/gif.gif)
 
 Setup
 * download repository
-* npm install @mui/icons-material
-* npm start
+
+`npm install @mui/icons-material`
+
+`npm start`
