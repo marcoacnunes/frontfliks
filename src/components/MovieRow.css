@@ -1,0 +1,97 @@
+.movieRow {
+    margin-bottom: 40px;
+}
+
+.movieRow h2 {
+    margin: 0px 0px 0px 50px;
+}
+
+.movieRow--listarea {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.movieRow--list {
+    transition: all ease 0.5s;
+}
+
+.movieRow--item {
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+}
+
+.movieRow--item img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+.movieRow--item img:hover {
+    transform: scale(1);
+}
+
+.movieRow--left , .movieRow--right {
+    position: absolute;
+    width: 50px;
+    height: 225px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+
+.movieRow--left {
+    left: 0;
+    padding-left: 30px;
+}
+
+.movieRow--right {
+    right: 0;
+}
+
+.movieRow:hover .movieRow--left,
+.movieRow:hover .movieRow--right {
+    opacity: 1;
+}
+
+@media (max-width:760px) {
+    .movieRow--left, .movieRow--right {
+        opacity: 1;
+    }
+}
+
+@media (max-width:760px){
+    .feature {
+        height: 90vh;
+    }
+
+    .featured--name {
+        font-size: 40px;
+    }
+
+    .featured--info {
+        font-size: 16px;
+    }
+
+    .featured--description {
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px;
+    }
+
+    .featured--watchbutton, .featured--mylistbutton {
+        font-size: 16px;
+    }
+
+    .featured-genres {
+        font-size: 14px;
+    }
+}
+
+
