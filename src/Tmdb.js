@@ -37,7 +37,7 @@ export default {
             },
             {
                 slug: 'horror',
-                title: 'Terror',
+                title: 'Horror',
                 items: await basicFetch(`/discover/movie?with_genres=27&api_key=${API_KEY}`)
             },
             {
