@@ -3,7 +3,8 @@
 This project was bootstrapped with Create React App using The Movie Database API.
 
 ## Demo
-![](https://github.com/marcoacnunes/frontfliks/blob/master/src/gif.gif)
+
+<img src="https://github.com/marcoacnunes/frontfliks/blob/master/src/gif.gif" width="80%" height="80%"/>
 
 Setup
 * download repository
