@@ -1,6 +1,5 @@
 # NETFLIX Clone
 
-This project was bootstrapped with Create React App using The Movie Database API.
 
 ## Demo
 
